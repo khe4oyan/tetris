@@ -15,3 +15,44 @@ canvas {
 	background-color: lavender;
 	border-radius: 5px;
 }
+
+.game_over{
+ 	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.888);
+	background: linear-gradient(rgba(0, 0, 0, 0.873), 90% , rgba(255, 0, 0, 0.742));
+	display: flex;
+	align-items: center;
+	backdrop-filter: blur(10px);
+	justify-content: center;
+}
+
+.container{
+	padding: 25px;
+	background: rgba(255, 255, 255, 0.41);
+	border-radius: 10px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.container h2{
+	font-size: 3rem;
+	color: rgb(57, 0, 0);
+}
+.container button{
+	font-size: 1.5rem;
+	width: 100%;
+	outline: none;
+	border: none;
+	padding: 5px;
+	text-transform: uppercase;
+	font-weight: bolder;
+	background-color: rgb(194, 250, 194);
+	color: rgb(87, 128, 87);
+	border-radius: 5px;
+}
+
+.hide{
+	opacity: 0;
+}

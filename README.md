@@ -1,1 +1,1 @@
-# tetris
+[![banner](https://raw.githubusercontent.com/khe4oyan/repo_banners/main/banners/tetris.png)](https://khe4oyan.github.io/tetris/)
