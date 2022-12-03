@@ -9,7 +9,8 @@ body{
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background: linear-gradient(#114357, #F29492);
+	/* background: linear-gradient(#114357, #F29492); */
+	background: linear-gradient(#010101, #535B69, #8592A6, #010101);
 }
 canvas {
 	background-color: lavender;
@@ -28,6 +29,7 @@ canvas {
 	align-items: center;
 	backdrop-filter: blur(10px);
 	justify-content: center;
+	z-index: 1;
 }
 
 .container{
@@ -55,4 +57,38 @@ canvas {
 
 .hide{
 	opacity: 0;
+}
+
+/* .side{} */
+
+.game {
+	display: grid;
+	grid-template-columns: .7fr 1.2fr .5fr;
+	position: relative;
+}
+.score{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 3rem;
+	color: white;
+}
+.best_score {
+	font-size: 1rem;
+	color: rgb(221, 187, 112);
+	margin: 5px 0;
+}
+.your_score {
+	font-weight: bold;
+	font-size: 1rem;
+	color: rgb(13, 49, 54)
+}
+.settings {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-weight: bold;
+	color: yellow;
+	position: relative;
+	z-index: 10;
+	margin-left: 10px;
+}
+.settings > * {
+	width: 100%;
 }
